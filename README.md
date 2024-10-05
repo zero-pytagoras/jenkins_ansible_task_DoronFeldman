@@ -9,7 +9,7 @@ Install docker https://docs.docker.com/engine/install/ubuntu/#install-using-the-
 - Run: "docker logs <id>" and save the intial Jenkins password
 - Install suggested plugins
 - enter details...
-- set up two nodes
+- set up two nodes, make sure worker1 has label "remote".
 - set up multi branch pipeline - use git for source and jenkinsfile for build configuration
 - install ansible plugin in Jenkins
 - start the job
