@@ -12,4 +12,4 @@ Install docker https://docs.docker.com/engine/install/ubuntu/#install-using-the-
 - set up two nodes, make sure worker1 has label "remote".
 - set up multi branch pipeline - use git for source and use repository: "https://github.com/doronfe/jenkins_ansible_task.git", use "Jenkinsfile" for build configuration
 - install ansible plugin in Jenkins
-- start the multibranch pipeline via parameters only, enter worker2 for "host ip", username and password are "jenkins" - it will run on branch "test_on_this"  
+- start the multibranch pipeline via parameters only, enter worker2 for "host ip", username and password are "jenkins" - it will run on branch "test_on_this_one"  
