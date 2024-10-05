@@ -1,0 +1,4 @@
+FROM jenkins/jenkins:lts-jdk17
+USER root
+RUN apt-get update && apt-get install -y lsb-release apt-utils vim wget curl
+RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/* 
